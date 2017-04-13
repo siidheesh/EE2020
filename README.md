@@ -1,29 +1,17 @@
-# README #
+# EE2020 AY16/17 FPGA Design Project #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+### Digital Signal Generator for the Basys 3 board ###
 
-### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+List of features:
+ * Independent, dual channel operation
+ * Built-in waveforms
+   * Sine
+   * Square
+   * Triangle
+ * Arbitrary Waveform Generator
+   * Receives waveform data from any external device with a UART
+ * Control over frequency amplitude, offset and duty cycle
+ * Basic controls on the Basys 3 board
+ * Advanced controls with a GUI and a mouse
 
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
