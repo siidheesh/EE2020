@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Apr 04 01:02:15 2017
+# Process ID: 15972
+# Current directory: C:/Users/sidxb/FPGA/ee2020
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14980 C:\Users\sidxb\FPGA\ee2020\ee2020.xpr
+# Log file: C:/Users/sidxb/FPGA/ee2020/vivado.log
+# Journal file: C:/Users/sidxb/FPGA/ee2020\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sidxb/FPGA/ee2020/ee2020.xpr
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sidxb/FPGA/ee2020/ee2020.runs/impl_1/myDAC.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {s25fl032p-spi-x1_x2_x4}] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/sidxb/FPGA/ee2020/ee2020.runs/impl_1/myDAC.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+archive_project C:/Users/sidxb/FPGA/Project_Wednesday_SiidheeshTheivasigamani_A0150117W.zip.xpr.zip -temp_dir C:/Users/sidxb/FPGA/temp -force -include_config_settings

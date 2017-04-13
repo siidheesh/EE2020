@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tri_duty_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tri_duty_sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="53400000001fs"></ZoomEndTime>
+      <Cursor1Time time="3850000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="128"></NameColumnWidth>
+      <ValueColumnWidth column_width="95"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/tri_duty_sim/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tri_duty_sim/clksamp" type="logic">
+      <obj_property name="ElementShortName">clksamp</obj_property>
+      <obj_property name="ObjectShortName">clksamp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tri_duty_sim/freq" type="array">
+      <obj_property name="ElementShortName">freq[63:0]</obj_property>
+      <obj_property name="ObjectShortName">freq[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tri_duty_sim/amp" type="array">
+      <obj_property name="ElementShortName">amp[63:0]</obj_property>
+      <obj_property name="ObjectShortName">amp[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tri_duty_sim/off" type="array">
+      <obj_property name="ElementShortName">off[63:0]</obj_property>
+      <obj_property name="ObjectShortName">off[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tri_duty_sim/trn" type="logic">
+      <obj_property name="ElementShortName">trn</obj_property>
+      <obj_property name="ObjectShortName">trn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tri_duty_sim/valid" type="logic">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tri_duty_sim/duty" type="array">
+      <obj_property name="ElementShortName">duty[16:0]</obj_property>
+      <obj_property name="ObjectShortName">duty[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tri_duty_sim/dac" type="array">
+      <obj_property name="ElementShortName">dac[63:0]</obj_property>
+      <obj_property name="ObjectShortName">dac[63:0]</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tri_duty_sim/preclip" type="array">
+      <obj_property name="ElementShortName">preclip[63:0]</obj_property>
+      <obj_property name="ObjectShortName">preclip[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tri_duty_sim/state" type="logic">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tri_duty_sim/clipped_duty" type="array">
+      <obj_property name="ElementShortName">clipped_duty[63:0]</obj_property>
+      <obj_property name="ObjectShortName">clipped_duty[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tri_duty_sim/delta" type="array">
+      <obj_property name="ElementShortName">delta[63:0]</obj_property>
+      <obj_property name="ObjectShortName">delta[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tri_duty_sim/delta_div" type="array">
+      <obj_property name="ElementShortName">delta_div[63:0]</obj_property>
+      <obj_property name="ObjectShortName">delta_div[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tri_duty_sim/delta_up" type="array">
+      <obj_property name="ElementShortName">delta_up[63:0]</obj_property>
+      <obj_property name="ObjectShortName">delta_up[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tri_duty_sim/delta_down" type="array">
+      <obj_property name="ElementShortName">delta_down[63:0]</obj_property>
+      <obj_property name="ObjectShortName">delta_down[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tri_duty_sim/SAMP_FREQ" type="array">
+      <obj_property name="ElementShortName">SAMP_FREQ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SAMP_FREQ[31:0]</obj_property>
+   </wvobject>
+</wave_config>

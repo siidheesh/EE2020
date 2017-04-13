@@ -1,0 +1,58 @@
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c64069510ff0455da905d255b81eddf1 --debug typical --relax --mt 2 -L xbip_utils_v3_0_7 -L axi_utils_v2_0_3 -L xbip_pipe_v3_0_3 -L xbip_bram18k_v3_0_3 -L mult_gen_v12_0_12 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_dsp48_addsub_v3_0_3 -L xbip_dsp48_multadd_v3_0_3 -L dds_compiler_v6_0_13 -L xil_defaultlib -L blk_mem_gen_v8_3_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sine_sim_behav xil_defaultlib.sine_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1374] size mismatch in mixed language port association, vhdl port s_axis_phase_tdata [C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/new/sine.v:83]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xbip_utils_v3_0_7.xbip_utils_v3_0_7_pkg
+Compiling package xbip_utils_v3_0_7.xcc_utils_v3_0
+Compiling package dds_compiler_v6_0_13.dds_compiler_v6_0_13_viv_comp
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package dds_compiler_v6_0_13.pkg_dds_compiler_v6_0_13
+Compiling package dds_compiler_v6_0_13.dds_compiler_v6_0_13_hdl_comps
+Compiling package xbip_pipe_v3_0_3.xbip_pipe_v3_0_3_viv_comp
+Compiling package axi_utils_v2_0_3.axi_utils_v2_0_3_pkg
+Compiling package ieee.math_real
+Compiling package axi_utils_v2_0_3.global_util_pkg
+Compiling package axi_utils_v2_0_3.axi_utils_comps
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package ieee.std_logic_unsigned
+Compiling package dds_compiler_v6_0_13.pkg_betas
+Compiling package dds_compiler_v6_0_13.pkg_alphas
+Compiling architecture synth of entity xbip_pipe_v3_0_3.xbip_pipe_v3_0_3_viv [\xbip_pipe_v3_0_3_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_3.xbip_pipe_v3_0_3_viv [\xbip_pipe_v3_0_3_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_3.xbip_pipe_v3_0_3_viv [\xbip_pipe_v3_0_3_viv(c_latency=...]
+Compiling architecture synth of entity dds_compiler_v6_0_13.dds_compiler_v6_0_13_rdy [\dds_compiler_v6_0_13_rdy(c_has_...]
+Compiling architecture synth of entity dds_compiler_v6_0_13.dither_wrap [\dither_wrap(ci_phase_err_width=...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(adreg=0,carryinreg=0,ca...]
+Compiling architecture dsp48e_v of entity unisim.DSP48E [\DSP48E(carryinreg=0,carryinselr...]
+Compiling architecture synth of entity dds_compiler_v6_0_13.dsp48_wrap [\dsp48_wrap(xdf="artix7",abdreg=...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=0,adreg=0,areg...]
+Compiling architecture dsp48e_v of entity unisim.DSP48E [\DSP48E(acascreg=0,areg=0,bcascr...]
+Compiling architecture synth of entity dds_compiler_v6_0_13.dsp48_wrap [\dsp48_wrap(xdf="artix7",creg=1,...]
+Compiling architecture synth of entity dds_compiler_v6_0_13.accum [\accum(c_xdevicefamily="artix7",...]
+Compiling architecture synth of entity xbip_pipe_v3_0_3.xbip_pipe_v3_0_3_viv [\xbip_pipe_v3_0_3_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_3.xbip_pipe_v3_0_3_viv [\xbip_pipe_v3_0_3_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_3.xbip_pipe_v3_0_3_viv [\xbip_pipe_v3_0_3_viv(c_has_ce=1...]
+Compiling architecture synth of entity xbip_pipe_v3_0_3.xbip_pipe_v3_0_3_viv [\xbip_pipe_v3_0_3_viv(c_has_ce=1...]
+Compiling architecture synth of entity dds_compiler_v6_0_13.sin_cos [\sin_cos(c_xdevicefamily="artix7...]
+Compiling architecture synth of entity xbip_pipe_v3_0_3.xbip_pipe_v3_0_3_viv [\xbip_pipe_v3_0_3_viv(c_has_ce=1...]
+Compiling architecture synth of entity dds_compiler_v6_0_13.dds_compiler_v6_0_13_core [\dds_compiler_v6_0_13_core(c_xde...]
+Compiling architecture synth of entity dds_compiler_v6_0_13.dds_compiler_v6_0_13_viv [\dds_compiler_v6_0_13_viv(c_xdev...]
+Compiling architecture xilinx of entity dds_compiler_v6_0_13.dds_compiler_v6_0_13 [\dds_compiler_v6_0_13(c_xdevicef...]
+Compiling architecture dds_compiler_sim_arch of entity xil_defaultlib.dds_compiler_sim [dds_compiler_sim_default]
+Compiling module xil_defaultlib.sine_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sine_sim_behav

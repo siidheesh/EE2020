@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="better_tri_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="better_tri_sim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="39400000001fs"></ZoomEndTime>
+      <Cursor1Time time="5700000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="128"></NameColumnWidth>
+      <ValueColumnWidth column_width="95"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/better_tri_sim/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/better_tri_sim/out" type="array">
+      <obj_property name="ElementShortName">out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out[31:0]</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/better_tri_sim/duty" type="array">
+      <obj_property name="ElementShortName">duty[15:0]</obj_property>
+      <obj_property name="ObjectShortName">duty[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/better_tri_sim/amp" type="array">
+      <obj_property name="ElementShortName">amp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">amp[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/better_tri_sim/freq" type="array">
+      <obj_property name="ElementShortName">freq[15:0]</obj_property>
+      <obj_property name="ObjectShortName">freq[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/better_tri_sim/clipped_duty" type="array">
+      <obj_property name="ElementShortName">clipped_duty[15:0]</obj_property>
+      <obj_property name="ObjectShortName">clipped_duty[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/better_tri_sim/load" type="array">
+      <obj_property name="ElementShortName">load[15:0]</obj_property>
+      <obj_property name="ObjectShortName">load[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/better_tri_sim/loadup" type="array">
+      <obj_property name="ElementShortName">loadup[15:0]</obj_property>
+      <obj_property name="ObjectShortName">loadup[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/better_tri_sim/loaddown" type="array">
+      <obj_property name="ElementShortName">loaddown[15:0]</obj_property>
+      <obj_property name="ObjectShortName">loaddown[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/better_tri_sim/state" type="logic">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/better_tri_sim/count" type="array">
+      <obj_property name="ElementShortName">count[15:0]</obj_property>
+      <obj_property name="ObjectShortName">count[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/better_tri_sim/preclip" type="array">
+      <obj_property name="ElementShortName">preclip[15:0]</obj_property>
+      <obj_property name="ObjectShortName">preclip[15:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/better_tri_sim/SAMP_FREQ" type="array">
+      <obj_property name="ElementShortName">SAMP_FREQ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SAMP_FREQ[31:0]</obj_property>
+   </wvobject>
+</wave_config>

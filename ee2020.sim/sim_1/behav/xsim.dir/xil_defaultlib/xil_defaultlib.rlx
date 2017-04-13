@@ -1,0 +1,24 @@
+0.6
+2016.4
+Jan 23 2017
+19:37:30
+C:/Users/sidxb/FPGA/ee2020/ee2020.ip_user_files/ip/blk_mem_gen_arb/sim/blk_mem_gen_arb.v,1490945438,verilog,,,,blk_mem_gen_arb,,,,,,,,
+C:/Users/sidxb/FPGA/ee2020/ee2020.ip_user_files/ip/dds_compiler_0/demo_tb/tb_dds_compiler_0.vhd,1490945438,vhdl,,,,tb_dds_compiler_0,,,,,,,,
+C:/Users/sidxb/FPGA/ee2020/ee2020.ip_user_files/ip/dds_compiler_0/sim/dds_compiler_0.vhd,1490945438,vhdl,C:/Users/sidxb/FPGA/ee2020/ee2020.ip_user_files/ip/dds_compiler_0/demo_tb/tb_dds_compiler_0.vhd,,,dds_compiler_0,,,,,,,,
+C:/Users/sidxb/FPGA/ee2020/ee2020.ip_user_files/ip/dds_compiler_sim/demo_tb/tb_dds_compiler_sim.vhd,1490945438,vhdl,,,,tb_dds_compiler_sim,,,,,,,,
+C:/Users/sidxb/FPGA/ee2020/ee2020.ip_user_files/ip/dds_compiler_sim/sim/dds_compiler_sim.vhd,1490945438,vhdl,C:/Users/sidxb/FPGA/ee2020/ee2020.ip_user_files/ip/dds_compiler_sim/demo_tb/tb_dds_compiler_sim.vhd,,,dds_compiler_sim,,,,,,,,
+C:/Users/sidxb/FPGA/ee2020/ee2020.sim/sim_1/behav/glbl.v,1485222234,verilog,,,,glbl,,,,,,,,
+C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/imports/Downloads/DA2RefComp.vhd,1488954713,vhdl,,,,da2refcomp,,,,,,,,
+C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/imports/hdl/MouseCtl.vhd,1490496225,vhdl,,,,mousectl,,,,,,,,
+C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/imports/hdl/Ps2Interface.vhd,1470174441,vhdl,,,,ps2interface,,,,,,,,
+C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/imports/new/seg_disp.v,1490773467,verilog,,,,num_to_digits;num_to_seg;number_to_seg;seg_disp,,,,,,,,
+C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/new/arb.v,1490945024,verilog,,,,arb,,,,,,,,
+C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/new/debounce.v,1490639392,verilog,,,,debounce,,,,,,,,
+C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/new/main.v,1490776352,verilog,,,,myDAC,,,,,,,,
+C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/new/noise.v,1489256447,verilog,,,,GARO;noise;noise_bit,,,,,,,,
+C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/new/sine.v,1490652074,verilog,,,,sine_sim;sinemod,,,,,,,,
+C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/new/square.v,1490631643,verilog,,,,new_square;square;square_sim,,,,,,,,
+C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/new/triangle.v,1490626237,verilog,,,,tri_duty_sim;tri_sim;triangle,,,,,,,,
+C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/new/uart.v,1490567416,verilog,,,,ASSERTION_ERROR;BaudTickGen;async_receiver;uart_rx_sim;uart_test,,,,,,,,
+C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/new/var_clock.v,1490469801,verilog,,,,var_clock,,,,,,,,
+C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/new/vga.v,1490775999,verilog,,,,alphanum;clickable_num4;clickable_num6;num_to_disp4;num_to_disp6;region_mouse_black;region_mouse_white;vga_ctrl;vga_seg,,,,,,,,

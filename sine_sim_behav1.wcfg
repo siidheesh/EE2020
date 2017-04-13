@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sine_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sine_sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="50000000000fs"></ZoomEndTime>
+      <Cursor1Time time="5695000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="128"></NameColumnWidth>
+      <ValueColumnWidth column_width="95"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/sine_sim/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sine_sim/sin" type="array">
+      <obj_property name="ElementShortName">sin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sin[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sine_sim/freq" type="array">
+      <obj_property name="ElementShortName">freq[31:0]</obj_property>
+      <obj_property name="ObjectShortName">freq[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sine_sim/amp" type="array">
+      <obj_property name="ElementShortName">amp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">amp[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sine_sim/amp_off" type="array">
+      <obj_property name="ElementShortName">amp_off[31:0]</obj_property>
+      <obj_property name="ObjectShortName">amp_off[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sine_sim/clksamp" type="logic">
+      <obj_property name="ElementShortName">clksamp</obj_property>
+      <obj_property name="ObjectShortName">clksamp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sine_sim/data_valid" type="logic">
+      <obj_property name="ElementShortName">data_valid</obj_property>
+      <obj_property name="ObjectShortName">data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sine_sim/phase_valid" type="logic">
+      <obj_property name="ElementShortName">phase_valid</obj_property>
+      <obj_property name="ObjectShortName">phase_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sine_sim/data" type="array">
+      <obj_property name="ElementShortName">data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data[15:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sine_sim/phase" type="array">
+      <obj_property name="ElementShortName">phase[31:0]</obj_property>
+      <obj_property name="ObjectShortName">phase[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sine_sim/a2048_to_0" type="array">
+      <obj_property name="ElementShortName">a2048_to_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a2048_to_0[31:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sine_sim/amp_off_adjusted" type="array">
+      <obj_property name="ElementShortName">amp_off_adjusted[31:0]</obj_property>
+      <obj_property name="ObjectShortName">amp_off_adjusted[31:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sine_sim/clipped_amped" type="array">
+      <obj_property name="ElementShortName">clipped_amped[15:0]</obj_property>
+      <obj_property name="ObjectShortName">clipped_amped[15:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sine_sim/deb" type="logic">
+      <obj_property name="ElementShortName">deb</obj_property>
+      <obj_property name="ObjectShortName">deb</obj_property>
+   </wvobject>
+</wave_config>

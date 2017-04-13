@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Apr 03 23:46:41 2017
+# Process ID: 24300
+# Current directory: C:/Users/sidxb/FPGA/ee2020/ee2020.runs/synth_1
+# Command line: vivado.exe -log myDAC.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source myDAC.tcl
+# Log file: C:/Users/sidxb/FPGA/ee2020/ee2020.runs/synth_1/myDAC.vds
+# Journal file: C:/Users/sidxb/FPGA/ee2020/ee2020.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source myDAC.tcl -notrace

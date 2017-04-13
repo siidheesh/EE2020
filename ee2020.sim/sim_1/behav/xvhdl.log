@@ -1,0 +1,14 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sidxb/FPGA/ee2020/ee2020.ip_user_files/ip/dds_compiler_sim/sim/dds_compiler_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity dds_compiler_sim
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sidxb/FPGA/ee2020/ee2020.ip_user_files/ip/dds_compiler_sim/demo_tb/tb_dds_compiler_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_dds_compiler_sim
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/imports/hdl/Ps2Interface.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ps2Interface
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/imports/Downloads/DA2RefComp.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DA2RefComp
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/imports/hdl/MouseCtl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MouseCtl
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sidxb/FPGA/ee2020/ee2020.ip_user_files/ip/dds_compiler_0/sim/dds_compiler_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity dds_compiler_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sidxb/FPGA/ee2020/ee2020.ip_user_files/ip/dds_compiler_0/demo_tb/tb_dds_compiler_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_dds_compiler_0

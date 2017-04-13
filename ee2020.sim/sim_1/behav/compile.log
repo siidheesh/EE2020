@@ -1,0 +1,62 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/new/uart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_test
+INFO: [VRFC 10-311] analyzing module uart_rx_sim
+INFO: [VRFC 10-311] analyzing module async_receiver
+INFO: [VRFC 10-311] analyzing module ASSERTION_ERROR
+INFO: [VRFC 10-311] analyzing module BaudTickGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/new/var_clock.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module var_clock
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/new/vga.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_ctrl
+INFO: [VRFC 10-311] analyzing module alphanum
+INFO: [VRFC 10-311] analyzing module num_to_disp6
+INFO: [VRFC 10-311] analyzing module num_to_disp4
+INFO: [VRFC 10-311] analyzing module clickable_num6
+INFO: [VRFC 10-311] analyzing module clickable_num4
+INFO: [VRFC 10-311] analyzing module region_mouse_white
+INFO: [VRFC 10-311] analyzing module region_mouse_black
+INFO: [VRFC 10-311] analyzing module vga_seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/new/triangle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module triangle
+INFO: [VRFC 10-311] analyzing module tri_sim
+INFO: [VRFC 10-311] analyzing module tri_duty_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/new/square.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module square
+INFO: [VRFC 10-311] analyzing module new_square
+INFO: [VRFC 10-311] analyzing module square_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/new/sine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sinemod
+INFO: [VRFC 10-311] analyzing module sine_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/new/arb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/new/main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myDAC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/imports/new/seg_disp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seg_disp
+INFO: [VRFC 10-311] analyzing module number_to_seg
+INFO: [VRFC 10-311] analyzing module num_to_digits
+INFO: [VRFC 10-311] analyzing module num_to_seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/new/debounce.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debounce
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/new/noise.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module noise_bit
+INFO: [VRFC 10-311] analyzing module GARO
+INFO: [VRFC 10-311] analyzing module noise
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sidxb/FPGA/ee2020/ee2020.ip_user_files/ip/blk_mem_gen_arb/sim/blk_mem_gen_arb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_arb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sidxb/FPGA/ee2020/ee2020.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sidxb/FPGA/ee2020/ee2020.ip_user_files/ip/dds_compiler_sim/sim/dds_compiler_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity dds_compiler_sim
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sidxb/FPGA/ee2020/ee2020.ip_user_files/ip/dds_compiler_sim/demo_tb/tb_dds_compiler_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_dds_compiler_sim
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/imports/hdl/Ps2Interface.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ps2Interface
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/imports/Downloads/DA2RefComp.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DA2RefComp
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sidxb/FPGA/ee2020/ee2020.srcs/sources_1/imports/hdl/MouseCtl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MouseCtl
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sidxb/FPGA/ee2020/ee2020.ip_user_files/ip/dds_compiler_0/sim/dds_compiler_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity dds_compiler_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sidxb/FPGA/ee2020/ee2020.ip_user_files/ip/dds_compiler_0/demo_tb/tb_dds_compiler_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_dds_compiler_0

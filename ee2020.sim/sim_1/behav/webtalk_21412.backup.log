@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Apr 03 19:08:16 2017
+# Process ID: 21412
+# Current directory: C:/Users/sidxb/FPGA/ee2020/ee2020.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source C:/Users/sidxb/FPGA/ee2020/ee2020.sim/sim_1/behav/xsim.dir/sine_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/sidxb/FPGA/ee2020/ee2020.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/sidxb/FPGA/ee2020/ee2020.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/sidxb/FPGA/ee2020/ee2020.sim/sim_1/behav/xsim.dir/sine_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 50.328 ; gain = 0.051
+INFO: [Common 17-206] Exiting Webtalk at Mon Apr 03 19:08:23 2017...

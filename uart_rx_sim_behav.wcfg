@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="uart_rx_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="uart_rx_sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="7396999999fs"></ZoomStartTime>
+      <ZoomEndTime time="87997000000fs"></ZoomEndTime>
+      <Cursor1Time time="45197000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="128"></NameColumnWidth>
+      <ValueColumnWidth column_width="77"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="/uart_rx_sim/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_sim/recv_data" type="array">
+      <obj_property name="ElementShortName">recv_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">recv_data[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_sim/rxready" type="logic">
+      <obj_property name="ElementShortName">rxready</obj_property>
+      <obj_property name="ObjectShortName">rxready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_sim/i" type="array">
+      <obj_property name="ElementShortName">i[11:0]</obj_property>
+      <obj_property name="ObjectShortName">i[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_sim/lsb" type="array">
+      <obj_property name="ElementShortName">lsb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">lsb[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_sim/msb" type="array">
+      <obj_property name="ElementShortName">msb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">msb[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_sim/rxstate" type="array">
+      <obj_property name="ElementShortName">rxstate[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rxstate[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_sim/chan" type="logic">
+      <obj_property name="ElementShortName">chan</obj_property>
+      <obj_property name="ObjectShortName">chan</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_sim/ch1_en" type="logic">
+      <obj_property name="ElementShortName">ch1_en</obj_property>
+      <obj_property name="ObjectShortName">ch1_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_sim/ch2_en" type="logic">
+      <obj_property name="ElementShortName">ch2_en</obj_property>
+      <obj_property name="ObjectShortName">ch2_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_sim/writedata" type="array">
+      <obj_property name="ElementShortName">writedata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">writedata[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_sim/writeen" type="logic">
+      <obj_property name="ElementShortName">writeen</obj_property>
+      <obj_property name="ObjectShortName">writeen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_sim/freqA" type="array">
+      <obj_property name="ElementShortName">freqA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">freqA[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_sim/freqB" type="array">
+      <obj_property name="ElementShortName">freqB[15:0]</obj_property>
+      <obj_property name="ObjectShortName">freqB[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_sim/frame_ch1" type="logic">
+      <obj_property name="ElementShortName">frame_ch1</obj_property>
+      <obj_property name="ObjectShortName">frame_ch1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_sim/frame_ch2" type="logic">
+      <obj_property name="ElementShortName">frame_ch2</obj_property>
+      <obj_property name="ObjectShortName">frame_ch2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_sim/options" type="array">
+      <obj_property name="ElementShortName">options[13:0]</obj_property>
+      <obj_property name="ObjectShortName">options[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_sim/phaseoutA" type="array">
+      <obj_property name="ElementShortName">phaseoutA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">phaseoutA[15:0]</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_sim/phaseoutB" type="array">
+      <obj_property name="ElementShortName">phaseoutB[15:0]</obj_property>
+      <obj_property name="ObjectShortName">phaseoutB[15:0]</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_sim/burst_modeA" type="logic">
+      <obj_property name="ElementShortName">burst_modeA</obj_property>
+      <obj_property name="ObjectShortName">burst_modeA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_sim/burstA" type="logic">
+      <obj_property name="ElementShortName">burstA</obj_property>
+      <obj_property name="ObjectShortName">burstA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_sim/burst_modeB" type="logic">
+      <obj_property name="ElementShortName">burst_modeB</obj_property>
+      <obj_property name="ObjectShortName">burst_modeB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_sim/burstB" type="logic">
+      <obj_property name="ElementShortName">burstB</obj_property>
+      <obj_property name="ObjectShortName">burstB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_sim/phaseincA" type="array">
+      <obj_property name="ElementShortName">phaseincA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">phaseincA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_sim/phaseincB" type="array">
+      <obj_property name="ElementShortName">phaseincB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">phaseincB[31:0]</obj_property>
+   </wvobject>
+</wave_config>
